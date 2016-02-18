@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  font-family: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
+  background-color: floralwhite; }
+
+nav {
+  background-color: indianred;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end; }
+  nav ul {
+    justify-content: flex-end;
+    flex-direction: column-reverse; }
+    nav ul li {
+      display: inline-block;
+      align-items: center;
+      padding: 1em; }
+
+section {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  section::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+#contact div {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block; }
+  #contact div::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+footer {
+  background-color: indianred;
+  text-align: center;
+  font-size: 0.65em;
+  font-weight: 400;
+  margin-bottom: 2em;
+  clear: both; }
+
+/*# sourceMappingURL=app.css.map */

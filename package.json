@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/akshaym91/akshaym91.github.io#readme",
   "devDependencies": {
-    "node-neat": "^1.7.2"
+    "connect": "^3.4.1",
+    "serve-static": "^1.10.2"
   }
 }

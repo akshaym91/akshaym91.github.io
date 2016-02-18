@@ -1,0 +1,49 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+$asset-pipeline: true;
+$em-base: 14px;
+$prefix-for-webkit: true;
+$prefix-for-mozilla: true;
+$prefix-for-microsoft: true;
+$prefix-for-opera: true;
+$prefix-for-spec: true;
+body {
+    font-family: $lucida-grande;
+    background-color: floralwhite;
+}
+
+nav {
+	background-color: indianred;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+    ul {
+    	justify-content: flex-end;
+    	flex-direction: column-reverse;
+        li {
+            display: inline-block;
+            align-items: center;
+    		@include padding(1em);
+        }
+    }
+}
+
+section {
+    @include outer-container;
+}
+
+#contact {
+    div {
+        @include outer-container;
+        display: inline-block;
+    }
+}
+
+footer {
+	background-color: indianred;
+    text-align: center;
+    font-size: 0.65em;
+    font-weight: 400;
+    margin-bottom: 2em;
+    clear: both;
+}
