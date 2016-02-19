@@ -39,38 +39,116 @@
 </head>
 
 <body>
-    <nav class="menu">
-        <ul>
-            <li><a href="#home"> Home </a></li>
-            <li><a href="#about"> About </a></li>
-            <li><a href="#work"> Work </a></li>
-            <li><a href="#blog"> Blog </a></li>
-            <li><a href="#contact"> Contact </a></li>
-        </ul>
-    </nav>
-    <header>
-        <div>Namaste, I'm Akshay.</div>
-        <div>I am a front end web developer.</div>
-    </header>    
-    <section id="home">
+    <header class="navigation" role="banner">
+        <div class="navigation-wrapper">
+            <nav class="menu" role="navigation">
+                <ul class="navigation-menu show">
+                    <li class="nav-link logo">
+                        <a href="#"><img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo Image"></a>
+                    </li>                
+                    <li class="nav-link"><a href="#home"> Home </a></li>
+                    <li class="nav-link"><a href="#about"> About </a></li>
+                    <li class="nav-link"><a href="#about"> Testimonials </a></li>
+                    <li class="nav-link"><a href="#work"> Work </a></li>
+                    <li class="nav-link"><a href="#blog"> Blog </a></li>
+                    <li class="nav-link"><a href="#contact"> Contact </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero" id="home">
+        <div class="hero-inner">
+            <a class="hero-logo"><img src="/images/profile_pic.jpg" alt=""></a>        
+            <div class="hero-copy">
+            <h1>Namaste, I'm Akshay.</h1>
+            <p>I am a front end web developer.</p>
+            </div>
+        </div>
     </section>
-    <section id="about">
+    <section class="flex-boxes" id="about">
     </section>
-    <section id="work">
+    <section class="flex-boxes" id="work">
     </section>
-    <section id="blog">
+    <section class="flex-boxes" id="testimonials">
+        <div class="comment">
+            <div class="comment-image">
+                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo image">
+            </div>
+            <div class="comment-content">
+                <h1>First Comment Title or Author</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, aspernatur, quia modi minima debitis tempora ducimus quam vero impedit alias earum nemo error tenetur sed.</p>
+                <p class="comment-detail">Date or details about this post</p>
+            </div>
+        </div>
+        <div class="comment">
+            <div class="comment-image">
+                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png" alt="Logo image">
+            </div>
+            <div class="comment-content">
+                <h1>Another One</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, aspernatur, quia modi minima debitis tempora ducimus quam vero impedit alias earum nemo error tenetur sed.</p>
+                <p class="comment-detail">Date or details about this post</p>
+            </div>
+        </div>
     </section>
-    <section id="contact">
-        <div><a href=""> Twitter</a></div>
-        <div><a href=""> Facebook</a></div>
-        <div><a href=""> Github</a></div>
-        <div><a href=""> Mail</a></div>
+    <section class="flex-boxes" id="blog">
     </section>
-    <footer>
-    		&copy; Akshay Menon 2016 <br/> 
-    		All Rights Reserved
+    <section class="cards" id="contact">
+        <div class="card">
+            <div class="card-header"><a href=""> Twitter</a></div>
+            <div class="card-image">
+                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-3.png" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header"><a href=""> Facebook</a></div>
+            <div class="card-image">
+                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-3.png" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header"><a href=""> Github</a></div>
+            <div class="card-image">
+                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-3.png" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header"><a href=""> Mail</a></div>
+            <div class="card-image">
+                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-3.png" alt="">
+            </div>
+        </div>
+    </section>
+    <footer class="footer" role="contentinfo">
+        <div class="footer-logo">
+            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo image">
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li>
+                    <h3>Content</h3></li>
+                <li><a href="javascript:void(0)">About</a></li>
+                <li><a href="javascript:void(0)">Contact</a></li>
+                <li><a href="javascript:void(0)">Products</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <h3>Follow Me</h3></li>
+                <li><a href="javascript:void(0)">Facebook</a></li>
+                <li><a href="javascript:void(0)">Twitter</a></li>
+                <li><a href="javascript:void(0)">YouTube</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <h3>Legal</h3></li>
+                <li><a href="javascript:void(0)">Terms and Conditions</a></li>
+                <li><a href="javascript:void(0)">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <hr>
+        <p>&copy; Akshay Menon 2016
+            <br/> All Rights Reserved</p>
     </footer>
-
     <!-- Scripts required after the loading of the page -->
     <script type="text/javascript" src="app.js"></script>
 </body>
