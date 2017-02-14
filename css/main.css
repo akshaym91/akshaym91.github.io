@@ -1,0 +1,44 @@
+
+.fa {
+    font-size: 1.5em;
+}
+
+#title {
+    font-size: 2em;
+}
+
+#sub-title {
+
+}
+
+#header-left, #header-right {
+    margin: auto 1em;
+}
+
+.header-list-item {
+    padding: 0.3em;
+}
+
+#header-left > .header-list-item > a {
+    padding-left: 1em;
+    text-decoration: none;
+}
+#header-right > .header-list-item > a {
+    padding-right: 1em;
+    text-decoration: none;
+}
+
+.sectional-header {
+    margin: 0.5em;
+}
+
+.section-header {
+    margin-left: 0.5em;
+    font-size: 1.5em;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.card {
+    margin: 0.5em 0;
+}
